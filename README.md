@@ -1,4 +1,3 @@
-# iyf-s11-week01-kelvinkimotho3-coder
 # Hi, I'm Kelvin Kimotho
 
 ### An aspiring software developer and networking enthusiast from Kenya
