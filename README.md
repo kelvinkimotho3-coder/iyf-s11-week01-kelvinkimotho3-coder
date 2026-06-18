@@ -7,5 +7,5 @@
 * I’m looking for help with **open-source projects and improving my programming skills.**
 * Ask me about **HTML, CSS, basic networking concepts, and Git**
 * How to reach me: [**kelvinkimotho3@gmail.com**](mailto:your-email@example.com)
-* 
+  
 
