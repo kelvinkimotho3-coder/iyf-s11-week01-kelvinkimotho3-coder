@@ -1,0 +1,218 @@
+# about.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Kelvin Ngatia</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>About Me</h1>
+            <p>I am a motivated learner who enjoys exploring web design, coding, and digital storytelling.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript Basics</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Timeline</h2>
+            <ul>
+                <li><strong>2026-May</strong> — Started learning web foundations</li>
+                <li><strong>2026-June</strong> — Built beginner projects and static pages</li>
+                <li><strong>2026-July</strong> — Expanding into full portfolio development</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
+# contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kelvin Kimotho Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; }
+        nav { background: #333; padding: 1rem; text-align: center; }
+        nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a.active { color: #007BFF; border-bottom: 2px solid #007BFF; }
+        .container { max-width: 600px; margin: 40px auto; padding: 0 20px; }
+        fieldset { border: 2px solid #ccc; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+        legend { font-weight: bold; padding: 0 10px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="text"], input[type="email"], input[type="tel"], select, textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .checkbox-group { display: flex; align-items: center; gap: 10px; }
+        .checkbox-group label { display: inline; margin-bottom: 0; font-weight: normal; }
+        button { background-color: #007BFF; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem; width: 100%; }
+        button:hover { background-color: #0056b3; }
+        .metadata-section { background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 30px; border: 1px dashed #ddd; }
+        .social-links a { color: #007BFF; text-decoration: none; margin-right: 15px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <main class="container">
+        <h2>Get in Touch</h2>
+        
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Your Message Details</legend>
+
+                <div class="form-group">
+                    <label for="full-name">Full Name *</label>
+                    <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number (Optional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g., +254 700 000000">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected>Select a topic...</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="feedback">Feedback / Suggestions</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message * (Minimum 50 characters)</label>
+                    <textarea id="message" name="message" rows="6" minlength="50" placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                    <label for="newsletter">Subscribe to our weekly newsletter</label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit Form</button>
+        </form>
+
+        <!-- Location & Social Media Links -->
+        <section class="metadata-section">
+            <h3>Operational Info</h3>
+            <p><strong>Location:</strong> Nairobi, Kenya</p>
+            <p><strong>Timezone:</strong> East Africa Time (EAT / UTC+3)</p>
+            
+            <h4>Connect Externally</h4>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener">GitHub Profile</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kelvin Kimotho. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+# index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Kelvin Ngatia</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Kelvin Ngatia</h1>
+            <p>Building simple, meaningful web experiences with curiosity and care.</p>
+            <p>I am a student and aspiring web developer who enjoys learning modern web technologies and creating attractive interfaces.</p>
+            <p><a href="about.html">Learn more about me</a> | <a href="projects.html">View my projects</a></p>
+        </section>
+    </main>
+</body>
+</html>
+
+# rojects.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Kelvin Ngatia</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Projects</h1>
+
+        <section>
+            <h2>Project One</h2>
+            <img src="images/project1.jpg" alt="Placeholder project preview one" width="300">
+            <p>A simple landing page designed to practice structure and layout.</p>
+        </section>
+
+        <section>
+            <h2>Project Two</h2>
+            <img src="images/project2.jpg" alt="Placeholder project preview two" width="300">
+            <p>A responsive contact form and page layout exercise.</p>
+        </section>
+
+        <section>
+            <h2>Project Three</h2>
+            <img src="images/project3.jpg" alt="Placeholder project preview three" width="300">
+            <p>A multi-page portfolio structure built with semantic HTML.</p>
+        </section>
+    </main>
+</body>
+</html>
